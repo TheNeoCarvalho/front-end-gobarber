@@ -18,6 +18,12 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     margin-top: 30px;
+
+    span {
+      color: #f00;
+      align-self: flex-start;
+      padding-bottom: 10px
+    }
   }
 
   input {
